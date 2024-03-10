@@ -6,38 +6,60 @@
     <title>Nathan's Website</title>
     <link rel="stylesheet" href="styles.css"> <!-- connects index.html file to styles.css css file -->
 </head>
-<body>
-    <h1> Nathan's Website</h1>
-    <h2> Nathan's 
-        <br>
-        Website</h2>
-    <h3> Nathan's Website</h3>
+
+<body data-theme="light">
+
+    <header>
+        <!-- <h1>Your Name</h1> -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skillsets">Skillsets</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle-btn" onclick="toggleTheme()">Light Mode</button>
+    </header>
+
+    <div class="siteLogoName">
+        <h1>Nathan's Website</h1> 
+    </div>
+    <div class="siteLogoDesc">
+        <h3 class="description">Programmer | Developer | Tech Enthusiast</h3>
+    </div>
+
+    <div class="myInfoIcons">
+        <img width="30px" height="30px" class="email.png" src="images/email.png">
+        <img width="30px" height="30px" class="github.png" src="images/github.png">
+        <img width="30px" height="30px" class="linkedin.png" src="images/linkedin.png">
+        <img width="30px" height="30px" class="resume.png" src="images/resume.png">
+        <!-- justify-content:space around; -->
+    </div>
 
     <hr>
 
-    <p> Hellow World</p>
-    <p> My name is Nathan</p>
-
-    <nav class="navbar">
-        <li> Home</li>
-        <li> Home1</li>
-        <li> Home2</li>
-        <li> Home3</li>
-    </nav>
-
-    <ol class="A">
-        <li> step 1</li>
-        <li> step 2</li>
-        <li> step 3</li>
-        <li> step 4</li>
-    </ol>
-
-    <ol class="list">
-        <li> A</li>
-        <li> B</li>
-        <li> C<li>
-        <li> D</li>
-    </ol>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>This section is about you. Introduce yourself, your background, and what drives you. You can talk about your education, interests, or anything that gives a sense of who you are.</p>
+        </section>
+    
+        <section id="skillsets">
+            <h2 class="section-title">Skillsets</h2>
+            <p>Detail your skills here. You can categorize them as programming languages, tools, technologies, etc. Feel free to list them in a way that showcases your proficiency.</p>
+        </section>
+    
+        <section id="experience">
+            <h2 class="section-title">Experience</h2>
+            <p>List your professional experiences here. Include positions held, companies worked for, and the dates. Highlight what you achieved or learned in each role.</p>
+        </section>
+    
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p>Showcase your projects here. Describe the projects, your role, technologies used, and any challenges you overcame. Links to live sites or code repositories are highly recommended.</p>
+        </section>
+    </div>
 
     <a href="https://www.canva.com/design/DAF9APkCKzE/upAzGApRSgnQSoxm0vftvw/edit">
         <button> 
@@ -48,11 +70,7 @@
     </div>
     
     <footer>
-        <div>
-            <input />
-            <input type="Name"
-        </div>
-        <p> Copyright Nathan Kim</p>
+        <p> © Nathan Kim. All rights reserved. </p>
     </footer>
     
 
