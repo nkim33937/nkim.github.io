@@ -1,0 +1,32 @@
+[
+    {
+      "role": "SWE Intern",
+      "organization": "MedQIA, LLC",
+      "startDate": "Jun, 2023",
+      "endDate": "Aug, 2023",
+      "experiences": ["Helped design and develop a robust machine learning framework for medical imaging using various ML models TensorFlow", 
+        "Implemented the new open-source imaging library TotalSegmentator and DeepReg to optimize and streamline the segmentation process"],
+      "imageSrc": "history/medqia1.png"
+    },
+    {
+      "role": "Student Research Assistant",
+      "organization": "Computer Vision Imaging Lab (CVIB), UCLA",
+      "startDate": "Jul, 2022",
+      "endDate": "Sep, 2022",
+      "experiences": ["Conducted Siemens funding research (Principal Investigator: Michael McNitt-Gray) on renal cell carcinoma (RCC) in CT images", 
+        "Utilized Integrated Biological Imaging System (IBIS) to target regions of interest with the goal of training and developing an accurate machine learning model to determine the rate of progression of renal cell carcinoma in patient data"],
+      "imageSrc": "history/ucla1.png"
+    },
+    {
+      "role": "SWE Intern",
+      "organization": "MedQIA, LLC",
+      "startDate": "Jun, 2021",
+      "endDate": "Aug, 2021",
+      "experiences": [
+        "Modified existing telemedicine imaging assessment platforms for applications in drug development and image analysis support",
+        "Evaluated IBIS Explorer software’s staging, eligibility, and response evaluation for oncology assessments, lung and biomarkers"
+      ],
+      "imageSrc": "history/medqia1.png"
+    }
+  ]
+  
